@@ -1,0 +1,24 @@
+{
+  "name": "land-registry-dapp",
+  "version": "1.0.0",
+  "description": "Land Registry DApp using Solidity, Truffle, Ganache, and vanilla web UI",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development --reset",
+    "test": "truffle test",
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "solidity",
+    "truffle",
+    "ganache",
+    "dapp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "truffle": "^5.11.5"
+  }
+}

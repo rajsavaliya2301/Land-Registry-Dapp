@@ -1,0 +1,14 @@
+{
+  "server": {
+    "baseDir": ["./"],
+    "routes": {
+      "/node_modules": "node_modules"
+    }
+  },
+  "files": [
+    "client/**/*.{html,htm,css,js}",
+    "contracts/**/*.sol",
+    "build/contracts/*.json"
+  ],
+  "startPath": "client/index.html"
+}
